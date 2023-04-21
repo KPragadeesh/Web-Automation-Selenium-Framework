@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Trello testNg">
+  <test name="Test E2E Trello Application">
+    <classes>
+      <class name="testCases.E2ELogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

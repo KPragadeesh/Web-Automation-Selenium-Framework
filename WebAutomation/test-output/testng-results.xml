@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-19T20:44:23 IST" name="Trello testNg" finished-at="2023-03-19T20:45:06 IST" duration-ms="43256">
+    <groups>
+    </groups>
+    <test started-at="2023-03-19T20:44:23 IST" name="Test E2E Trello Application" finished-at="2023-03-19T20:45:06 IST" duration-ms="43256">
+      <class name="testCases.E2ELogin">
+        <test-method is-config="true" signature="launchAppliaction()[pri:0, instance:testCases.E2ELogin@1b11171f]" started-at="2023-03-19T20:44:23 IST" name="launchAppliaction" finished-at="2023-03-19T20:44:34 IST" duration-ms="11529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAppliaction -->
+        <test-method signature="e2eLoginTrello()[pri:0, instance:testCases.E2ELogin@1b11171f]" started-at="2023-03-19T20:44:34 IST" name="e2eLoginTrello" finished-at="2023-03-19T20:45:06 IST" duration-ms="31395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2eLoginTrello -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.E2ELogin@1b11171f]" started-at="2023-03-19T20:45:06 IST" name="tearDown" finished-at="2023-03-19T20:45:06 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.E2ELogin -->
+    </test> <!-- Test E2E Trello Application -->
+  </suite> <!-- Trello testNg -->
+</testng-results>
